@@ -121,5 +121,3 @@ The gradient boosted classifier outperformed other models in terms of recall sco
 
 Recall was the metric of choice due to the imbalanced target variable. We wanted to make sure that the model captured 
 enough of the flagged target data. 
-
-**DPI Model**: 
