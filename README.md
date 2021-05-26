@@ -13,6 +13,9 @@ If a more in-depth overview is required, click the image below to watch an expla
 
 [![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
+[![Coverage Schemes Explained](http://img.youtube.com/vi/watch?v=PdN7T_OzAKw/0.jpg)](https://www.youtube.com/watch?v=PdN7T_OzAKw)
+
+
 # Goals
 
 **1. Optimal Defensive Coverages:**
