@@ -14,7 +14,8 @@ If a more in-depth overview is required, click the image below to watch an expla
 [![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
 An explanation of the 4-3 vs 3-4 defense: 
-[![Coverage Schemes Explained](http://img.youtube.com/vi/watch?v=6s2QL0rn2UI.jpg)](https://www.youtube.com/watch?v=6s2QL0rn2UI)
+
+[![Basic defensive schemes Explained](http://img.youtube.com/vi/watch?v=6s2QL0rn2UI.jpg)](https://www.youtube.com/watch?v=6s2QL0rn2UI)
 
 Explanation of Coverage Schemes can be seen here: 
 
