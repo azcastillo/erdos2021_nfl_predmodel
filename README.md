@@ -11,7 +11,7 @@ Football is a sport where two opposing teams are competing over possession of th
 
 If a more in-depth overview is required, click the image below to watch an explanatory YouTube video provided by the NFL: 
 
-[![IMAGE ALT TEXT](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CMDvt4UG&rs=AOn4CLDOwUDmRhd0ougS21bx71EN5MsjOg)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
+[![IMAGE ALT TEXT](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
 # Goals
 
