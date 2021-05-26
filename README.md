@@ -1,4 +1,5 @@
-[![IMAGE ALT TEXT](
+[![IMAGE ALT TEXT](erdospic.PNG)](<https://www.erdosinstitute.org/>)   [![IMAGE ALT TEXT](https://i.ytimg.com/vi/l-O24EqD4YI/maxresdefault.jpg)](<https://operations.nfl.com/gameday/analytics/big-data-bowl/>) 
+
 # Erdos Institute + NFL Big Data Bowl 2021 Prediction Model
 This is a stored repository of data and Python codes for the "Sports Analytics Project" group for the 2021 Erdos Institute.
 
