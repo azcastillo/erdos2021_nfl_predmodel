@@ -93,9 +93,9 @@ And here: <https://static.googleusercontent.com/media/research.google.com/en//pu
 
 # Model Performance: 
 
-**First Down Model: 
+**First Down Model**: 
 
-**Penalties Model: 
+**Penalties Model**: 
 
 The gradient boosted classifier outperformed other models in terms of recall score. 
 * **Logistic Regression: Recall=0.71 with cutoff at 0.1
@@ -105,4 +105,4 @@ The gradient boosted classifier outperformed other models in terms of recall sco
 Recall was the metric of choice due to the imbalanced target variable. We wanted to make sure that the model captured 
 enough of the target data. 
 
-** DPI Model: 
+**DPI Model**: 
