@@ -98,9 +98,9 @@ And here: <https://static.googleusercontent.com/media/research.google.com/en//pu
 **Penalties Model**: 
 
 The gradient boosted classifier outperformed other models in terms of recall score. 
-* **Logistic Regression: Recall=0.71 with cutoff at 0.1
-* **Random Forest: Recall=0.75 
-* **Gradient Boosted Classifier: Recall=0.78 
+* **Logistic Regression**: Recall=0.71 with cutoff at 0.1
+* **Random Forest**: Recall=0.75 
+* **Gradient Boosted Classifier**: Recall=0.78 
 
 Recall was the metric of choice due to the imbalanced target variable. We wanted to make sure that the model captured 
 enough of the target data. 
