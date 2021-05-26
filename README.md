@@ -49,7 +49,7 @@ When either the offense or defense violates the rules of the game, they are asse
 
 GOAL:
 
-Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties.
+Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we want to predict penalties based on week 1 player tracking data as well as predict defensive pass interference (DPI) using a more comprehensive approach. 
 
 # Models
 
@@ -90,3 +90,19 @@ More info here: <https://towardsdatascience.com/gradient-boosting-classification
 More info here: <https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21>. 
 
 And here: <https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf>. 
+
+# Model Performance: 
+
+**First Down Model: 
+
+**Penalties Model: 
+
+The gradient boosted classifier outperformed other models in terms of recall score. 
+* **Logistic Regression: Recall=0.71 with cutoff at 0.1
+* **Random Forest: Recall=0.75 
+* **Gradient Boosted Classifier: Recall=0.78 
+
+Recall was the metric of choice due to the imbalanced target variable. We wanted to make sure that the model captured 
+enough of the target data. 
+
+**DPI Model: 
