@@ -1,4 +1,4 @@
-[![IMAGE ALT TEXT](erdospic.PNG)](<https://www.erdosinstitute.org/>)   [![IMAGE ALT TEXT](https://i.ytimg.com/vi/l-O24EqD4YI/maxresdefault.jpg)](<https://operations.nfl.com/gameday/analytics/big-data-bowl/>) 
+[![ERDOS image](erdospic.PNG)](<https://www.erdosinstitute.org/>)   [![Big Data Bowl image](https://i.ytimg.com/vi/l-O24EqD4YI/maxresdefault.jpg)](<https://operations.nfl.com/gameday/analytics/big-data-bowl/>) 
 
 # Erdos Institute + NFL Big Data Bowl 2021 Prediction Model
 This is a stored repository of data and Python codes for the "Sports Analytics Project" group for the 2021 Erdos Institute.
@@ -11,7 +11,7 @@ Football is a sport where two opposing teams are competing over possession of th
 
 If a more in-depth overview is required, click the image below to watch an explanatory YouTube video provided by the NFL: 
 
-[![IMAGE ALT TEXT](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
+[![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
 # Goals
 
