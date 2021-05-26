@@ -60,7 +60,9 @@ GOAL:
 
 Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we want to predict penalties based on week 1 player tracking data as well as predict defensive pass interference (DPI) using a more comprehensive approach. 
 
-# Models
+# Model Building: 
+
+**First Down Model**: 
 
 **1. Bagging:** machine learning process that takes several weak models and aggregates the predictions to select the best prediction. 
 
@@ -74,27 +76,32 @@ More info here: https://towardsdatascience.com/support-vector-machine-introducti
 
 More info here: <https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e>. 
 
-**4. Logistic Regression:** uses a logistic function to model a binary dependent variable. 
+**Penalties Model**: 
+
+The preprocessing of the data for this model consisted of merging the plays data set with the player tracking week 1 data set. Due to the imbalanced target variable issue, we only considered relevent positions (in particular no special teams players). Moreover, we only used the most often defensive and offensive personnel packages. Defensively, this consisted of 4-2-5, 3-3-5, 4-3-4, 2-4-5, 2-3-6, 3-4-4, 3-2-6, 4-1-6 formations (nickel and dime formations)l. Offensively, this consisted of the 11, 12, 21, 13, spread, and 22 formations. This oversampling procedure balanced the target variable slighly and made the data easier to model with. The penalites model consisted of information for the following features: 'yardsToGo', 'defendersInTheBox', 'numberOfPassRushers', 'passResult', 'offensePlayResult', 'x', 'y', 'a', 'dis', 'o', 'dir', 'defender', 'coverage_count' with the target variable being the binary penaltyCodes column (0 for no flag on the play, '1' if there was one). 
+ 
+
+**1. Logistic Regression:** uses a logistic function to model a binary dependent variable. 
 
 More info here: <https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148>. 
 
-**5. Random Forest:** consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. 
+**2. Random Forest:** consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. 
 
 More info here: <https://towardsdatascience.com/understanding-random-forest-58381e0602d2>. 
 
-**6. Adaboost:** initially created to increase the efficiency of binary classifiers, it uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones. 
+**3. Adaboost:** initially created to increase the efficiency of binary classifiers, it uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones. 
 
 More info here: <https://blog.paperspace.com/adaboost-optimizer/#:~:text=AdaBoost%20is%20an%20ensemble%20learning,turn%20them%20into%20strong%20ones>. 
 
 And here: <https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe>. 
 
-
-
-**7. Gradient Boosted Classifier:** each predictor tries to improve on its predecessor by reducing the errors, but instead of fitting a predictor on the data at each iteration it actually fits a new predictor to the residual errors made by the previous predictor. 
+**4. Gradient Boosted Classifier:** each predictor tries to improve on its predecessor by reducing the errors, but instead of fitting a predictor on the data at each iteration it actually fits a new predictor to the residual errors made by the previous predictor. 
 
 More info here: <https://towardsdatascience.com/gradient-boosting-classification-explained-through-python-60cc980eeb3d>. 
 
-**8. LSTM Neural Net:** a specific recurrent neural network (RNN) architecture that was designed to model temporal sequences and their long-range dependencies more accurately than conventional RNNs. 
+**DPI Model**: 
+
+**1. LSTM Neural Net:** a specific recurrent neural network (RNN) architecture that was designed to model temporal sequences and their long-range dependencies more accurately than conventional RNNs. 
 
 More info here: <https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21>. 
 
