@@ -64,6 +64,13 @@ Analysis will consist of examining data from the 2018 NFL season to find out whi
 ## EDA
 Here are some highlights of the EDA for the data. 
 
+**General Plays/player EDA**:
+
+
+![](images/bar_chart_of_events.jpg)
+
+![](images/number_of_positions.jpg)
+
 **Defensive Coverage**:
 
 When a defense has 7 defenders in coverage, that the median is significantly higher than the other coverage counts, but this could also be because the number of times 7 defenders were in coverage. 
