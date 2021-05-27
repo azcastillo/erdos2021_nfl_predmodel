@@ -58,7 +58,7 @@ When either the offense or defense violates the rules of the game, they are asse
 
 GOAL:
 
-Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we want to predict penalties based on week 1 player tracking data as well as predict defensive pass interference (DPI) using a more comprehensive approach. 
+Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we aim to predict penalties based on week 1 player tracking data as well as plays data.  
 
 # Model Building: 
 
