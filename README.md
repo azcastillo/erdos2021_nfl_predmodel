@@ -68,7 +68,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 * Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
 
-![](coverage_count_offensePlayResult.jpg)
+![](images/coverage_count_offensePlayResult.jpg)
 
 * Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
 ![](reject_code_with_drug.jpg)
