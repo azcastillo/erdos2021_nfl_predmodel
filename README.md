@@ -74,16 +74,21 @@ I looked at the distributions of the data and the value counts for the various c
 
 ![](images/pass_result_coverage_count.jpg)
 
+From this count plot, we can see that the 4DL, 2LB, 5DB (4-3 nickel) has the most completions against them. After that, defensive formations '3DL, 3LB, 5DB','4DL 3LB, 4DB', and '2DL, 4LB, 5DB',  had the most completions. 
+
 ![](images/pass_result_defensive_formations.jpg)
 
 
 Box plot relating the information from the defensive coverages to the offensive output along with coverage counts. It looks like the mainly used coverage counts were 7,8,9, 10 with the most positive use. Let's take that into consideration.
+
 ![](images/personnelD_coverage_count.jpg)
 
 Box plot analyzing the most used defensive coverages along with the number of pass rushers to see how that affects offensive output. As we can see here, having 7 pass rushers seems to be detrimental to most defenses. It looks like rushing 4 or 5 may be optimal.
+
 ![](images/personnelD_pass_rushers.jpg)
 
 **Penalties**: 
+
 ![](images/pass_result_penalty_codes.jpg)
 
 
@@ -124,15 +129,7 @@ And here: <https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe>.
 
 **4. Gradient Boosted Classifier:** each predictor tries to improve on its predecessor by reducing the errors, but instead of fitting a predictor on the data at each iteration it actually fits a new predictor to the residual errors made by the previous predictor. 
 
-More info here: <https://towardsdatascience.com/gradient-boosting-classification-explained-through-python-60cc980eeb3d>. 
-
-**DPI Model**: 
-
-**1. LSTM Neural Net:** a specific recurrent neural network (RNN) architecture that was designed to model temporal sequences and their long-range dependencies more accurately than conventional RNNs. 
-
-More info here: <https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21>. 
-
-And here: <https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf>. 
+More info here: <https://towardsdatascience.com/gradient-boosting-classification-explained-through-python-60cc980eeb3d>.  
 
 # Model Performance: 
 
