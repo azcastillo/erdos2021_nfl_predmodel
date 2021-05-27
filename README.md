@@ -11,15 +11,15 @@ Football is a sport where two opposing teams are competing over possession of th
 
 If a more in-depth overview is required, click the image below to watch an explanatory YouTube video provided by the NFL: 
 
-[![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CMDhu4UG&rs=AOn4CLBTI5wYaUrqe-Dm8TJbx_8ESr8C8w)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
+[![Football Explanation Video](footballinfo.webp)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
 Click the image below for a YouTube video explanation of the 4-3 vs 3-4 defense: 
 
-[![Basic defensive schemes Explained](https://i.ytimg.com/an_webp/6s2QL0rn2UI/mqdefault_6s.webp?du=3000&sqp=CJC8uoUG&rs=AOn4CLAfrDeAsqcF8T5ki8JbmU9s9jNkAw)](https://www.youtube.com/watch?v=6s2QL0rn2UI)
+[![Basic defensive schemes Explained](basicdefenses.webp)](https://www.youtube.com/watch?v=6s2QL0rn2UI)
 
 Click the image below for a YouTube video explanation of defensive coverage schemes: 
 
-[![Coverage Schemes Explained](https://i.ytimg.com/an_webp/PdN7T_OzAKw/mqdefault_6s.webp?du=3000&sqp=CJjUuoUG&rs=AOn4CLDMGi8U01YmZzyd23-gDOkRR1yLZg)](https://www.youtube.com/watch?v=PdN7T_OzAKw)
+[![Coverage Schemes Explained](zonecoverages.webp)](https://www.youtube.com/watch?v=PdN7T_OzAKw)
 
 
 # Goals
