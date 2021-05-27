@@ -66,11 +66,11 @@ I looked at the distributions of the data and the value counts for the various c
 
 **Defensive Coverage**:
 
+When a defense has 7 defenders in coverage, that the median is significantly higher than the other coverage counts, but this could also be because the number of times 7 defenders were in coverage. 
 
 ![](images/coverage_count_offensePlayResult.jpg)
 
-
-![](images/coverage_count_play_result.jpg)
+For complete and incomplete passes, there was either 7 or 8 defenders on the play. For sacks, interestingly enough, the amount of players in pass coverage was prediominantly between 7 and 9. 
 
 ![](images/pass_result_coverage_count.jpg)
 
@@ -88,6 +88,8 @@ Box plot analyzing the most used defensive coverages along with the number of pa
 ![](images/personnelD_pass_rushers.jpg)
 
 **Penalties**: 
+
+![](images/coverage_count_play_result.jpg)
 
 ![](images/pass_result_penalty_codes.jpg)
 
