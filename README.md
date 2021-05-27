@@ -66,14 +66,9 @@ I looked at the distributions of the data and the value counts for the various c
 
 **Defensive Coverage**:
 
-* Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
 
 ![](images/coverage_count_offensePlayResult.jpg)
 
-* Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
-![](reject_code_with_drug.jpg)
-
-* Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
 ![](images/coverage_count_play_result.jpg)
 
@@ -81,15 +76,16 @@ I looked at the distributions of the data and the value counts for the various c
 
 ![](images/pass_result_defensive_formations.jpg)
 
-![](images/pass_result_penalty_codes.jpg)
 
+Box plot relating the information from the defensive coverages to the offensive output along with coverage counts. It looks like the mainly used coverage counts were 7,8,9, 10 with the most positive use. Let's take that into consideration.
 ![](images/personnelD_coverage_count.jpg)
 
+Box plot analyzing the most used defensive coverages along with the number of pass rushers to see how that affects offensive output. As we can see here, having 7 pass rushers seems to be detrimental to most defenses. It looks like rushing 4 or 5 may be optimal.
 ![](images/personnelD_pass_rushers.jpg)
 
-![](images/Image 5-23-21 at 1.23 PM.jpg)
 **Penalties**: 
-* Count plot detailing which factors influenced pas being approved or denied. 
+![](images/pass_result_penalty_codes.jpg)
+
 
 # Model Building: 
 
