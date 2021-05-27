@@ -66,8 +66,11 @@ Here are some highlights of the EDA for the data.
 
 **General Plays/player EDA**:
 
+Barchart of events that are contained in the data. 
 
 ![](images/bar_chart_of_events.jpg)
+
+Barchart detailing how many players of each position are in the data. 
 
 ![](images/number_of_positions.jpg)
 
