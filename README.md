@@ -79,8 +79,6 @@ I looked at the distributions of the data and the value counts for the various c
 
 ![](images/pass_result_coverage_count.jpg)
 
-![](images/coverage_count_play_result.jpg)
-
 ![](images/pass_result_defensive_formations.jpg)
 
 ![](images/pass_result_penalty_codes.jpg)
