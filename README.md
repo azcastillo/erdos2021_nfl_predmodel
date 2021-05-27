@@ -33,7 +33,7 @@ Passing plays are the most efficient way for the offensive team to gain field po
 
 ![](Aspose.Words.0ca85fb4-e76c-4d3e-9a00-dc367f0e2769.002.png)
 
-Above data provided by: (<https://www.pro-football-reference.com/>)
+Chart and table above created with data provided by: (<https://www.pro-football-reference.com/>)
 
 NFL teams went from averaging 85 passing yards per game in the 1930s to 234 passing yards per game in 2010-2020. The increases in average passing yards occurred while average rushing yards have decreased at a stagnant rate. Because of this, it is important to find out which defensive coverages perform the best at limiting passing success. 
 
