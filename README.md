@@ -62,7 +62,7 @@ Analysis will consist of examining data from the 2018 NFL season to find out whi
 
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
+Here are some highlights of the EDA for the data. 
 
 **Defensive Coverage**:
 
@@ -89,7 +89,11 @@ Box plot analyzing the most used defensive coverages along with the number of pa
 
 **Penalties**: 
 
+Most penalties were called when there were 10 players in coverage. When there were 7 in coverage, it was almost negligible
+
 ![](images/coverage_count_play_result.jpg)
+
+Certainly more penalties thrown on incomplete passes, which is what one would expect. 
 
 ![](images/pass_result_penalty_codes.jpg)
 
