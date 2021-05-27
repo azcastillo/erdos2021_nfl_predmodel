@@ -1,7 +1,7 @@
 [![ERDOS image](erdospic.PNG)](<https://www.erdosinstitute.org/>)   [![Big Data Bowl image](https://i.ytimg.com/vi/l-O24EqD4YI/maxresdefault.jpg)](<https://operations.nfl.com/gameday/analytics/big-data-bowl/>) 
 
 # Erdos Institute + NFL Big Data Bowl 2021 Prediction Model
-This is a stored repository of data and Python codes for the "Sports Analytics Project" group for the 2021 Erdos Institute.
+This is a stored repository of data and Python codes for the "Sports Analytics Project" group for the 2021 Erdos Institute. Data for this project can be found here: [NFL Project Data](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data). 
 
 This project was completed as part of the The Erdős Institute Data Science Boot Camp 2021 and will be submitted to compete in the National Football League’s (NFL) 2020-21 Big Data Bowl. NFL data from the 2018 season was analyzed to provide recommendations and summaries for optimal defensive coverages, first down analysis, and penalty analysis. To successfully create a prediction model that NFL teams can benefit from, it is important to understand football and its related data. This will allow data scientists to identify significant data for building a model.    
 
