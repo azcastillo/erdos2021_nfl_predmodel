@@ -11,7 +11,7 @@ Football is a sport where two opposing teams are competing over possession of th
 
 If a more in-depth overview is required, click the image below to watch an explanatory YouTube video provided by the NFL: 
 
-[![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CLDJuYUG&rs=AOn4CLBY4SnWw-IhXIwHTGD-BB979Kw5NA)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
+[![Football Explanation Video](https://i.ytimg.com/an_webp/3t6hM5tRlfA/mqdefault_6s.webp?du=3000&sqp=CMDhu4UG&rs=AOn4CLBTI5wYaUrqe-Dm8TJbx_8ESr8C8w)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
 Click the image below for a YouTube video explanation of the 4-3 vs 3-4 defense: 
 
