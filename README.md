@@ -60,6 +60,28 @@ GOAL:
 
 Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we aim to predict penalties based on week 1 player tracking data as well as plays data.  
 
+
+## EDA
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights and pictures of graphs can be found in the compressed file folder (see documentation above). 
+
+**Defensive Coverage**:
+
+* Count plot showing the how many times a insurance provider approved or denied the pharmacy claim. The count plot also shows how many times (total) each drug was approved or denied a pharmacy claim. 
+
+![](coverage_count_offensePlayResult.jpg)
+
+* Count plot visualization detailing each drug and the associated times that a reject code appeared with said drug. 
+![](reject_code_with_drug.jpg)
+
+* Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
+
+![](formulary_for_payer.jpg)
+
+**Penaltie**: 
+* Count plot detailing which factors influenced pas being approved or denied. 
+
+![](factors_influence_pas.jpg)
+
 # Model Building: 
 
 **First Down Model**: 
