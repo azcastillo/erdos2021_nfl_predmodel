@@ -75,12 +75,23 @@ I looked at the distributions of the data and the value counts for the various c
 
 * Count plot detailing the formulary for each insurance provider and the number of times each drug was approved or not. 
 
-![](formulary_for_payer.jpg)
+![](images/coverage_count_play_result.jpg)
 
-**Penaltie**: 
+![](images/pass_result_coverage_count.jpg)
+
+![](images/coverage_count_play_result.jpg)
+
+![](images/pass_result_defensive_formations.jpg)
+
+![](images/pass_result_penalty_codes.jpg)
+
+![](images/personnelD_coverage_count.jpg)
+
+![](images/personnelD_pass_rushers.jpg)
+
+![](images/Image 5-23-21 at 1.23 PM.jpg)
+**Penalties**: 
 * Count plot detailing which factors influenced pas being approved or denied. 
-
-![](factors_influence_pas.jpg)
 
 # Model Building: 
 
