@@ -97,6 +97,9 @@ Certainly more penalties thrown on incomplete passes, which is what one would ex
 
 ![](images/pass_result_penalty_codes.jpg)
 
+This shows us what we thought would be true: the position on the field of the player does have an impact whether a flag will be called or not.
+
+![](images/pass_result_penalty_codes.jpg)
 
 # Model Building: 
 
