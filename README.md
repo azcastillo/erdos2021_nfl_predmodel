@@ -16,11 +16,11 @@ If a more in-depth overview is required, click the image below to watch an expla
 
 [![Football Explanation Video](footballinfo.webp)](<https://www.youtube.com/watch?v=3t6hM5tRlfA>)
 
-Click the image below for a YouTube video explanation of the 4-3 vs 3-4 defense: 
+Click the image below for a YouTube video explanation of the 4-3 vs 3-4 defense provided by Law Nation: 
 
 [![Basic defensive schemes Explained](basicdefenses.webp)](https://www.youtube.com/watch?v=6s2QL0rn2UI)
 
-Click the image below for a YouTube video explanation of defensive coverage schemes: 
+Click the image below for a YouTube video explanation of defensive coverage schemes provided by the NFL: 
 
 [![Coverage Schemes Explained](zonecoverages.webp)](https://www.youtube.com/watch?v=PdN7T_OzAKw)
 
