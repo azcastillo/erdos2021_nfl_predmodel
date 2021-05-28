@@ -3,11 +3,14 @@
 # Erdos Institute + NFL Big Data Bowl 2021 Prediction Model
 This is a stored repository of data and Python codes for the "Sports Analytics Project" group for the 2021 Erdos Institute. Data for this project can be found here: [NFL Project Data](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data). 
 
-This project was completed as part of the The Erdős Institute Data Science Boot Camp 2021 and will be submitted to compete in the National Football League’s (NFL) 2020-21 Big Data Bowl. NFL data from the 2018 season was analyzed to provide recommendations and summaries for optimal defensive coverages, first down analysis, and penalty analysis. To successfully create a prediction model that NFL teams can benefit from, it is important to understand football and its related data. This will allow data scientists to identify significant data for building a model.    
+This project was completed as part of the The Erdős Institute Data Science Boot Camp 2021 and will be submitted to compete in the National Football League’s (NFL) 2020-21 Big Data Bowl. The NFL Big Data Bowl is an annual analytics contest that explores statistical innovations in football. NFL data from the 2018 season was analyzed to provide recommendations and summaries for optimal defensive coverages, first down analysis, and penalty analysis. To successfully create a prediction model that NFL teams can benefit from, it is important to understand football and its related data. This will allow data scientists to identify significant data for building a model.    
 
 **Football for Non-Football Data Scientists**
 
 Football is a sport where two opposing teams are competing over possession of the football and field position. The goal of the offense is to gain at least 10 yards every four downs (plays) to prevent turnovers and eventually score while the goal of the defense is to prevent these gains and secure turnovers. 
+
+*Right click images below to view videos in a new tab and avoid leaving this page.*
+
 
 If a more in-depth overview is required, click the image below to watch an explanatory YouTube video provided by the NFL: 
 
@@ -58,7 +61,51 @@ When either the offense or defense violates the rules of the game, they are asse
 
 GOAL:
 
-Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we aim to predict penalties based on week 1 player tracking data as well as plays data.  
+Analysis will consist of examining data from the 2018 NFL season to find out which offensive and defensive formations are more or less likely to commit penalties. Moreoever, we aim to predict penalties based on week 1 player tracking data as well as plays data.
+
+
+# Model Building 
+
+**Optimal Defensive Coverages and Penalties Models**: 
+
+The preprocessing of the data for the penalties model consisted of merging the plays data set with the player tracking week 1 data set. Due to the imbalanced target variable issue, we only considered relevent positions (in particular no special teams players). Moreover, we only used the most often defensive and offensive personnel packages. Defensively, we considered the 4-2-5, 3-3-5, 4-3-4, 2-4-5, 2-3-6, 3-4-4, 3-2-6, 4-1-6 formations (nickel and dime formations)l. Offensively, this consisted of the 11, 12, 21, 13, spread, and 22 formations. This oversampling procedure balanced the target variable slighly and made the data easier to model with. The penalites model considered information for the following features: 'yardsToGo', 'defendersInTheBox', 'numberOfPassRushers', 'passResult', 'offensePlayResult', 'x', 'y', 'a', 'dis', 'o', 'dir', 'defender', 'coverage_count' with the target variable being the binary penaltyCodes column (0 for no flag on the play, '1' if there was one). 
+ 
+
+**1. Logistic Regression:** uses a logistic function to model a binary dependent variable. 
+
+More info here: <https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148>. 
+
+**2. Random Forest:** consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. 
+
+More info here: <https://towardsdatascience.com/understanding-random-forest-58381e0602d2>. 
+
+**3. Adaboost:** initially created to increase the efficiency of binary classifiers, it uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones. 
+
+More info here: <https://blog.paperspace.com/adaboost-optimizer/#:~:text=AdaBoost%20is%20an%20ensemble%20learning,turn%20them%20into%20strong%20ones>. 
+
+And here: <https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe>. 
+
+**4. Gradient Boosted Classifier:** each predictor tries to improve on its predecessor by reducing the errors, but instead of fitting a predictor on the data at each iteration it actually fits a new predictor to the residual errors made by the previous predictor. 
+
+More info here: <https://towardsdatascience.com/gradient-boosting-classification-explained-through-python-60cc980eeb3d>.  
+
+
+**First Down Models**: 
+
+**1. Bagging:** machine learning process that takes several weak models and aggregates the predictions to select the best prediction. 
+
+More info here: https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205. 
+
+**2. Support Vector Machine (SVM):** The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points. 
+
+More info here: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47.
+
+**3. K-Nearest Neighbors (KNN):** an algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. It is mostly used to classifies a data point based on how its neighbours are classified. 
+
+More info here: <https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e>. 
+
+
+
 
 
 ## EDA
@@ -111,50 +158,37 @@ This shows us what we thought would be true: the position on the field of the pl
 
 ![](images/x_coord_penalties.jpg )
 
-# Model Building: 
+
+
+# Model Results and Performance 
+**Optimal Defensive Coverages:** 
+
+4-2-5, 3-3-5, and 2-4-5 base defenses had the best success against the pass based on data with EPA= .70 and the average completed yards= 10.7. The base 3-4-4 and 4-3-4 defensive formations preformed the worst against the pass with highest average completed yards against= 2.70.    
 
 **First Down Model**: 
 
-**1. Bagging:** machine learning process that takes several weak models and aggregates the predictions to select the best prediction. 
 
-More info here: https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205. 
+The model was able to predict whether an offensive formation would convert a first down against a defensive formation. **Bagging SVC was the best model with accuracy= 66.36%.** Accuracies of all tested models below:
+* **Bagging SVC=** 66.36%
+* **Pasting SVC=** 66.21%
+* **Voting=** 66.16%
+* **Decision Tree=** 66.11%
+* **Random Forest=** 66.11%
+* **Pasting RF=** 66.03%
+* **Linear SVC=** 66.02%
+* **Bagging RF=** 66.01%
+* **Logistic Regression=** 65.51%
+* **KNN=** 65.39%
+* **SVC (signmoid kernel)=** 63.04%
+* **K-means=** 46.52%
 
-**2. Support Vector Machine (SVM):** The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points. 
 
-More info here: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47.
-
-**3. K-Nearest Neighbors (KNN):** an algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. It is mostly used to classifies a data point based on how its neighbours are classified. 
-
-More info here: <https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e>. 
 
 **Penalties Model**: 
 
-The preprocessing of the data for this model consisted of merging the plays data set with the player tracking week 1 data set. Due to the imbalanced target variable issue, we only considered relevent positions (in particular no special teams players). Moreover, we only used the most often defensive and offensive personnel packages. Defensively, we considered the 4-2-5, 3-3-5, 4-3-4, 2-4-5, 2-3-6, 3-4-4, 3-2-6, 4-1-6 formations (nickel and dime formations)l. Offensively, this consisted of the 11, 12, 21, 13, spread, and 22 formations. This oversampling procedure balanced the target variable slighly and made the data easier to model with. The penalites model considered information for the following features: 'yardsToGo', 'defendersInTheBox', 'numberOfPassRushers', 'passResult', 'offensePlayResult', 'x', 'y', 'a', 'dis', 'o', 'dir', 'defender', 'coverage_count' with the target variable being the binary penaltyCodes column (0 for no flag on the play, '1' if there was one). 
+
+4-2-5, 3-3-5, and 2-4-5 base defenses had the best success against the pass based on data with EPA= .70 and the average completed yards= 10.7. The base 3-4-4 and 4-3-4 defensive formations preformed the worst against the pass with highest average completed yards against= 2.70.  
  
-
-**1. Logistic Regression:** uses a logistic function to model a binary dependent variable. 
-
-More info here: <https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148>. 
-
-**2. Random Forest:** consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. 
-
-More info here: <https://towardsdatascience.com/understanding-random-forest-58381e0602d2>. 
-
-**3. Adaboost:** initially created to increase the efficiency of binary classifiers, it uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones. 
-
-More info here: <https://blog.paperspace.com/adaboost-optimizer/#:~:text=AdaBoost%20is%20an%20ensemble%20learning,turn%20them%20into%20strong%20ones>. 
-
-And here: <https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe>. 
-
-**4. Gradient Boosted Classifier:** each predictor tries to improve on its predecessor by reducing the errors, but instead of fitting a predictor on the data at each iteration it actually fits a new predictor to the residual errors made by the previous predictor. 
-
-More info here: <https://towardsdatascience.com/gradient-boosting-classification-explained-through-python-60cc980eeb3d>.  
-
-# Model Performance: 
-
-**First Down Model**: 
-
-**Penalties Model**: 
 
 The gradient boosted classifier outperformed other models in terms of recall score. 
 * **Logistic Regression**: Recall=0.71 with cutoff at 0.1
