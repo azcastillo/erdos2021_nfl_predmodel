@@ -146,7 +146,7 @@ Box plot analyzing the most used defensive coverages along with the number of pa
 
 **Penalties**: 
 
-Most penalties were called when there were 10 players in coverage. When there were 7 in coverage, it was almost negligible
+Most penalties were called when there were 7 players in coverage. When there were 10 in coverage, it was almost negligible
 
 ![](images/coverage_count_play_result.jpg)
 
