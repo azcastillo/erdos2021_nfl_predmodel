@@ -123,11 +123,11 @@ Barchart detailing how many players of each position are in the data.
 
 **Defensive Coverage**:
 
-When a defense has 7 defenders in coverage, that the median is significantly higher than the other coverage counts, but this could also be because the number of times 7 defenders were in coverage. 
+When a defense has 7 defenders in coverage, the median is significantly higher than the other coverage counts, but this could also be because the number of times 7 defenders were in coverage. 
 
 ![](images/coverage_count_offensePlayResult.jpg)
 
-For complete and incomplete passes, there was either 7 or 8 defenders on the play. For sacks, interestingly enough, the amount of players in pass coverage was prediominantly between 7 and 9. 
+For complete and incomplete passes, there was either 7 or 8 defenders on the play. For sacks, interestingly enough, the amount of players in pass coverage was  predominantly 7 and 9. 
 
 ![](images/pass_result_coverage_count.jpg)
 
@@ -136,7 +136,7 @@ From this count plot, we can see that the 4DL, 2LB, 5DB (4-3 nickel) has the mos
 ![](images/pass_result_defensive_formations.jpg)
 
 
-Box plot relating the information from the defensive coverages to the offensive output along with coverage counts. It looks like the mainly used coverage counts were 7,8,9, 10 with the most positive use. Let's take that into consideration.
+Box plot relating the information from the defensive coverages to the offensive output along with coverage counts. It looks like the mainly used coverage counts were 7,8,9, 10 with the most positive use.
 
 ![](images/personnelD_coverage_count.jpg)
 
